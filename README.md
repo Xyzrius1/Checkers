@@ -3,6 +3,17 @@ Overview
 This project implements a Checkers Game to be used in conjunction with a BitManipulation Utility Class to show how bitwise operations along with binary arithmetic can be utilized within a real-world application. Usually, bitwise operations and binary arithmetic give low-level access to data efficiently, especially in game development and in systems programming, where the performance factor is important.
 This document explains in detail the design and implementation, besides challenges encountered while developing the CheckersGame and BitManipulationUtil classes, and also how bitwise operations can be applied to efficiently solve some common computational tasks.
 
+Summary of Game Rules:
+
+Players alternate turns moving their pieces diagonally.
+
+Capturing an opponent's piece by jumping over it is possible and mandatory if available.
+
+Reaching the far end of the board promotes a piece to a king.
+
+The code ensures moves are validated based on the rules of checkers, including diagonal movement, capturing, and king movement.
+
+
 
 Game Development
 
