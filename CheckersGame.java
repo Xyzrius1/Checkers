@@ -16,7 +16,7 @@ public class CheckersGame {
         while (true) {
             String currentPlayer = player1Turn ? "Player One (b)" : "Player Two (w)";
             System.out.println(currentPlayer + ", it's your turn to move a piece.");
-            System.out.print("Enter your move (e.g., A3-B4): ");
+            System.out.print("Enter your move (e.g., F4-D5): ");
             String moveInput = scanner.nextLine().trim();
 
             // Validate the input and process the move
